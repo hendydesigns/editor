@@ -1,7 +1,7 @@
 ---
 layout:  info
-title: Test
-permalink: /Test/
+title: FAQ
+permalink: /faq/
 ---
 
 ## Dr. Robert Lewis - the personal approach to plastic surgery ##

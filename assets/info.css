@@ -8,12 +8,17 @@
     position: relative;
     font-family: "Playfair Display";
     height: 75vh;
+    font-weight: 700;
     margin-top: 20vh;
     color: #fff;
   }
   
   .full * {
     white-space: nowrap;
+  }
+
+  .full h1 {
+    font-weight: 700;
   }
   
   .spin {
@@ -29,7 +34,6 @@
     animation: Gradient 15s ease infinite;
   }
   
-  
   .scroll-click {
     cursor: pointer;
     user-select: none;
@@ -38,7 +42,6 @@
   .scroll-click:hover {
     letter-spacing: 5px;
   }
-  
   
   
   @-webkit-keyframes Gradient {
@@ -121,6 +124,7 @@
     font-size: 20vw;
     margin: 0;
     white-space: nowrap;
+    font-weight: 700;
   }
   
   .FAQ-text .scroll-click {
@@ -131,6 +135,8 @@
   
   .FAQ-text h2 {
     font-size: 2vw;
+    font-weight: 700;
+    margin-top: 50px;
   }
   
   .FAQ-text p {
@@ -186,6 +192,7 @@
     font-family: "Playfair Display";
     font-size: 7vw;
     text-transform: uppercase;
+    font-weight: 700;
   }
   
   @media(max-width: 1000px) {
