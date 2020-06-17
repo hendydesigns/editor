@@ -7,8 +7,8 @@
   .full {
     position: relative;
     font-family: "Playfair Display";
-    height: 70vh;
-    margin-top: 30vh;
+    height: 75vh;
+    margin-top: 20vh;
     color: #fff;
   }
   
@@ -33,7 +33,6 @@
   .scroll-click {
     cursor: pointer;
     user-select: none;
-  
   }
   
   .scroll-click:hover {
@@ -78,82 +77,6 @@
       }
   }
   
-  
-  .fade-swipe span {
-    opacity: 0;
-    display: inline-block;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    -webkit-transform: translate3d(40px, 0, 0);
-    transform: translate3d(40px, 0, 0);
-  }
-  
-  
-  .fade-swipe span:nth-of-type(2) {
-    -webkit-transition-delay: .1s;
-    transition-delay: .1s;
-  }
-  
-  .fade-swipe span:nth-of-type(3) {
-    -webkit-transition-delay: .2s;
-    transition-delay: .2s;
-  }
-  
-  .fade-swipe span:nth-of-type(4) {
-    -webkit-transition-delay: .3s;
-    transition-delay: .3s;
-  }
-  
-  .fade-swipe span:nth-of-type(5) {
-    -webkit-transition-delay: .4s;
-    transition-delay: .4s;
-  }
-  
-  .fade-swipe span:nth-of-type(6) {
-    -webkit-transition-delay: .5s;
-    transition-delay: .5s;
-  }
-  
-  .fade-swipe span:nth-of-type(7) {
-    -webkit-transition-delay: .6s;
-    transition-delay: .6s;
-  }
-  
-  .fade-swipe span:nth-of-type(8) {
-    -webkit-transition-delay: .7s;
-    transition-delay: .7s;
-  }
-  
-  .fade-swipe span:nth-of-type(9) {
-    -webkit-transition-delay: .8s;
-    transition-delay: .8s;
-  }
-  
-  .fade-swipe span:nth-of-type(10) {
-    -webkit-transition-delay: .9s;
-    transition-delay: .9s;
-  }
-  
-  .fade-swipe span:nth-of-type(11) {
-    -webkit-transition-delay: 1s;
-    transition-delay: 1s;
-  }
-  
-  .fade-swipe span:nth-of-type(12) {
-    -webkit-transition-delay: 1.1s;
-    transition-delay: 1.1s;
-  }
-  
-  .fade-swipe span:nth-of-type(13) {
-    -webkit-transition-delay: 1.2s;
-    transition-delay: 1.2s;
-  }
-  
-  .fade-swipe span:nth-of-type(14) {
-    -webkit-transition-delay: 1.3s;
-    transition-delay: 1.3s;
-  }
-  
   .fade-neutral {
     opacity: 0;
     -webkit-transition: all 1s ease;
@@ -161,7 +84,6 @@
     -webkit-transform: translate3d(80px, 0, 0);
     transform: translate3d(80px, 0, 0);
   }
-  
   
   .splash.active .fade-swipe span {
     opacity: 1;
@@ -174,7 +96,6 @@
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-  
   
   .FAQ-back {
     position: fixed;
@@ -202,7 +123,7 @@
     white-space: nowrap;
   }
   
-  .FAQ-text h3 {
+  .FAQ-text .scroll-click {
     font-family: "Open Sans";
     font-size: 60px;
     text-transform: uppercase;
@@ -251,22 +172,15 @@
     }
   }
   
-  .fade-swipe.reveal span {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  
-  
   .fade-neutral.reveal {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
   
-  .sub-header {
+  .FAQ-text h3 {
     width: 100%;
-    height: 300px;
+    height: 200px;
     border-bottom: 1px solid #fff;
     line-height: 180px;
     font-family: "Playfair Display";
