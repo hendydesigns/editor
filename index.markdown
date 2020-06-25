@@ -1,7 +1,7 @@
 ---
-layout:  home
 title: Home
-permalink: /home/
+permalink: "/home/"
+layout: home
 ---
 
 ## THE SCIENTIFIC ART OF DR. ROBERT LEWIS ## 
