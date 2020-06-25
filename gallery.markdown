@@ -1,25 +1,7 @@
 ---
-layout:  gallery
 title: Gallery
-permalink: /gallery/
+permalink: "/gallery/"
+layout: gallery
 ---
 
-![secret rf]({{ site.baseurl }}/images/tru.jpg "secret-rf")
-
-![secret rf]({{ site.baseurl }}/images/secret.jpg "secret-rf")
-
-![secret rf]({{ site.baseurl }}/images/tru.jpg "secret-rf")
-
-![secret rf]({{ site.baseurl }}/images/secret.jpg "secret-rf")
-
-![secret rf]({{ site.baseurl }}/images/tru.jpg "secret-rf")
-
-![secret rf]({{ site.baseurl }}/images/secret.jpg "secret-rf")
-
-![secret rf]({{ site.baseurl }}/images/tru.jpg "secret-rf")
-
-![secret rf]({{ site.baseurl }}/images/secret.jpg "secret-rf")
-
-![secret rf]({{ site.baseurl }}/images/tru.jpg "secret-rf")
-
-![secret rf]({{ site.baseurl }}/images/secret.jpg "secret-rf")
+![home-1.jpg](/uploads/home-1.jpg)
