@@ -1,7 +1,7 @@
 ---
-layout:  equipment
 title: Secret RF
-permalink: /secret-rf/
+permalink: "/secret-rf/"
+layout: equipment
 ---
 
 ![secret rf]({{ site.baseurl }}/images/secret.jpg "secret-rf")

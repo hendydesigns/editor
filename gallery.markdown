@@ -1,7 +1,7 @@
 ---
-layout:  gallery
 title: Gallery
-permalink: /gallery/
+permalink: "/gallery/"
+layout: gallery
 ---
 
 ![secret rf]({{ site.baseurl }}/images/tru.jpg "secret-rf")

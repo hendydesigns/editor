@@ -1,7 +1,7 @@
 ---
-layout:  equipment
 title: Trusculpt
-permalink: /trusculpt/
+permalink: "/trusculpt/"
+layout: equipment
 ---
 
 ![Trusculpt image]({{ site.baseurl }}/images/tru.jpg "Truscuplt")

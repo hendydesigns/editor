@@ -1,7 +1,7 @@
 ---
-layout:  info
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: info
 ---
 
 ## Dr. Robert Lewis - the personal approach to plastic surgery ##
