@@ -1,15 +1,9 @@
 ---
-<<<<<<< HEAD
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
 title: Home
-=======
-title: Home
-permalink: "/home/"
-layout: home
->>>>>>> 23de139da9c7c8c605bbfbd4f08d14a2d1d684a0
 ---
 
 ## THE SCIENTIFIC ART OF DR. ROBERT LEWIS ## 
