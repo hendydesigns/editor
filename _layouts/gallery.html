@@ -1,0 +1,119 @@
+---
+layout: main
+---
+
+<div class="anchors">
+    <ul>
+        <li class="a"><span></span>face lift</li>
+        <li class="b"><span></span>rhinoplasty</li>
+        <li class="c"><span></span>neck lift</li>
+        <li class="d"><span></span>breast augmentation</li>
+        <li class="e"><span></span>breast reduction</li>
+    </ul>
+</div>
+
+<div class="open-mobile">
+    <div><span></span><span></span></div>
+    <p>view directory</p>
+</div>
+
+<div class="landing">
+    <div class="thumbs">
+        <div class="pic default"></div>
+        <div class="pic pic-a" style="background-image: url(gallery-folder/facelift/facelift_A4.jpg)"></div>
+        <div class="pic pic-b" style="background-image: url(gallery-folder/rhinoplasty/nose4.jpg)"></div>
+        <div class="pic pic-c" style="background-image: url(gallery-folder/necklift/neck2.jpg)"></div>
+        <div class="pic pic-d" style="background-image: url(gallery-folder/breastaug/aug4.jpg)"></div>
+        <div class="pic pic-e" style="background-image: url(gallery-folder/breastred/red2.jpg)"></div>
+    </div>
+    <h1>Gallery</h1>
+</div>
+
+<h1 class="anchor anchor-a">Face Lift</h1>
+
+<div class="Gallery facelift">
+
+    <div class="Grid Grid--cols-2">
+        {{ content }}
+    </div>
+
+</div>
+
+
+<style>
+    /* Gallery specific impactful styles */
+    .Footer-wrapper {
+        display: none;
+    }
+
+    .nav ul li a {
+        color: #000;
+    }
+
+    .header {
+        color: #000 !important;
+    }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".Gallery p").addClass("Grid-cell");
+        $(".Grid-cell").each(function (index) {
+            if (index % 2 == 0) {
+                $(this).prepend("<h3>Before</h3>");
+            } else {
+                $(this).prepend("<h3>After</h3>");
+            }
+        });
+    });
+
+    $(".default").addClass("hover");
+
+    if (window.innerWidth > 1200) {
+        $(".anchors ul li").hover(function () {
+            $(".pic").removeClass("hover");
+            var cur = this.className;
+            var thumb = ".pic-" + cur;
+            $(thumb).addClass("hover");
+        });
+    }
+
+    $(".anchors ul li").click(function () {
+        var cur = this.className;
+        var anchor = ".anchor-" + cur;
+        $('html,body').animate({
+            scrollTop: $(anchor).offset().top
+        }, 1000);
+    });
+
+    $(".open-mobile").click(function () {
+        $(".open-mobile").toggleClass("open");
+        $(".anchors").toggleClass("open");
+    });
+
+    $('.anchor').each(function (i) {
+        var top_of_object = $(this).offset().top;
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+        if (bottom_of_window > top_of_object) {
+            $(this).addClass("reveal");
+        } else {
+            $(this).removeClass("reveal");
+        }
+    });
+
+    //Reveal Hidden Elements on Scroll
+    $(window).scroll(function () {
+
+        $('.anchor').each(function (i) {
+            var top_of_object = $(this).offset().top;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            if (bottom_of_window > top_of_object) {
+                $(this).addClass("reveal");
+            } else {
+                $(this).removeClass("reveal");
+            }
+        });
+
+    });
+</script>
