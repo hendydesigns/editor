@@ -1,6 +1,7 @@
 ---
 title: Breast Augmentation
 date: 2020-06-26 05:21:00 Z
+layout: info
 ---
 
 ## What is breast augmentation surgery? ##
