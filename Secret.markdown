@@ -1,6 +1,7 @@
 ---
 title: Secret RF
 permalink: "/secret-rf/"
+position: 6
 layout: equipment
 ---
 
