@@ -9,7 +9,7 @@ layout: info
 The best candidates for eyelid surgery are men and women of essentially any age that have started to notice excess upper or lower eyelid skin and “bags” under the eyes. Some patients notice this early in life, some later. Importantly, eyelid surgery candidates should be otherwise fairly healthy and without major eye problems. Any pre-existing eye problems like dry eyes or glaucoma should be reviewed with Dr. Lewis before surgery. Occasionally, upper eyelid surgery can be performed with insurance approval. In order for insurance to approve eyelid surgery you must have a true, demonstrable, functional problem such as interference with your vision. Please discuss any functional concerns you may have with Dr. Lewis at your appointment.
 
 
-##As Dr. Lewis states,##
+## As Dr. Lewis states, ##
 
 “The eyes are the initial focus of every conversation you have. Having a more youthful, rested appearance starts with sculpting and refining the eyelid appearance.”
 
