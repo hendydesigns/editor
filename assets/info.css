@@ -9,7 +9,7 @@
     font-family: "Playfair Display";
     height: 75vh;
     font-weight: 700;
-    margin-top: 20vh;
+    margin-top: 35vh;
     color: #fff;
   }
   
@@ -121,7 +121,7 @@
   }
   
   .FAQ-text h1 {
-    font-size: 20vw;
+    font-size: 10vw;
     margin: 0;
     white-space: nowrap;
     font-weight: 700;
