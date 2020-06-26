@@ -1,6 +1,7 @@
 ---
 title: Breast Lift
 date: 2020-06-26 05:25:00 Z
+layout: info
 ---
 
 ## What is breast lift surgery? ##
