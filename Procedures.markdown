@@ -1,7 +1,7 @@
 ---
 title: Procedures
 permalink: "/procedures/"
-position: 1
+position: 2
 layout: collections
 ---
 
