@@ -1,6 +1,7 @@
 ---
 title: Trusculpt
 permalink: "/trusculpt/"
+position: 6
 layout: equipment
 ---
 
