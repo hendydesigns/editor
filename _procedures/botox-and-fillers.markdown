@@ -1,6 +1,7 @@
 ---
 title: Botox and Fillers
 date: 2020-06-26 05:17:00 Z
+layout: info
 ---
 
 ## Procedure Candidates ##
