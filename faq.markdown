@@ -1,7 +1,7 @@
 ---
 title: FAQ
 permalink: "/faq/"
-position: 3
+position: 4
 layout: info
 ---
 
