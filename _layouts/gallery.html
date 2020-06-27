@@ -4,11 +4,11 @@ layout: main
 
 <div class="anchors">
     <ul>
-        <li class="a"><span></span>face lift</li>
-        <li class="b"><span></span>rhinoplasty</li>
-        <li class="c"><span></span>neck lift</li>
-        <li class="d"><span></span>breast augmentation</li>
-        <li class="e"><span></span>breast reduction</li>
+        <li class="link-0"><span></span>face lift</li>
+        <li class="link-1"><span></span>rhinoplasty</li>
+        <li class="link-2"><span></span>neck lift</li>
+        <li class="link-3"><span></span>breast augmentation</li>
+        <li class="link-4"><span></span>breast reduction</li>
     </ul>
 </div>
 
@@ -19,17 +19,17 @@ layout: main
 
 <div class="landing">
     <div class="thumbs">
-        <div class="pic default"></div>
+        <div class="pic default" style="background-image:url({{ '/images/home-1.jpg' | relative_url }})"></div>
+        <!--
         <div class="pic pic-a" style="background-image: url(gallery-folder/facelift/facelift_A4.jpg)"></div>
         <div class="pic pic-b" style="background-image: url(gallery-folder/rhinoplasty/nose4.jpg)"></div>
         <div class="pic pic-c" style="background-image: url(gallery-folder/necklift/neck2.jpg)"></div>
         <div class="pic pic-d" style="background-image: url(gallery-folder/breastaug/aug4.jpg)"></div>
         <div class="pic pic-e" style="background-image: url(gallery-folder/breastred/red2.jpg)"></div>
+        -->
     </div>
     <h1>Gallery</h1>
 </div>
-
-<h1 class="anchor anchor-a">Face Lift</h1>
 
 <div class="Gallery facelift">
 
@@ -57,6 +57,12 @@ layout: main
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
+    $(".Gallery h2").each(function(i) {
+        $(this).addClass("anchor");
+        var anchor = "anchor-" + i;
+        $(this).addClass(anchor);
+    });
+
     $(document).ready(function () {
         $(".Gallery p").addClass("Grid-cell");
         $(".Grid-cell").each(function (index) {
@@ -70,6 +76,7 @@ layout: main
 
     $(".default").addClass("hover");
 
+    /*
     if (window.innerWidth > 1200) {
         $(".anchors ul li").hover(function () {
             $(".pic").removeClass("hover");
@@ -78,10 +85,12 @@ layout: main
             $(thumb).addClass("hover");
         });
     }
-
+    */
     $(".anchors ul li").click(function () {
         var cur = this.className;
-        var anchor = ".anchor-" + cur;
+        var index = " " + cur;
+        var i = index.charAt(6);
+        var anchor = ".anchor-" + i;
         $('html,body').animate({
             scrollTop: $(anchor).offset().top
         }, 1000);
@@ -116,4 +125,5 @@ layout: main
         });
 
     });
+
 </script>
