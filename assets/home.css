@@ -28,7 +28,7 @@ html, body {
   padding: 0;
 }
 
-.swiper-container {
+.main-slider  {
   margin-top: -30px;
   top: 0;
   width: 100%;
@@ -288,9 +288,9 @@ body {
   display: block;
 }
 
-.welcome h1 {
+.welcome h2 {
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 3px;
   font-size: 24px;
 }
 
@@ -331,5 +331,63 @@ body {
 @media (max-width: 400px) {
   .credentials {
     width: 200px;
+  }
+}
+
+.testimonials {
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+
+.testimonials .swiper-slide {
+  font-family: "Playfair Display";
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 50px;
+}
+
+.products {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 1000px;
+}
+
+.products h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 24px; 
+}
+
+.product {
+  width: 400px;
+  display: inline-block;
+  margin: 45px;
+}
+
+.product-img {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.product h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  color: #000;
+  text-decoration: underline;
+}
+
+@media(max-width: 1000px) {
+  .products {
+    width: 80%;
+  }
+  .product {
+    margin: 0 auto;
+    width: 100%;
   }
 }

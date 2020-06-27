@@ -85,6 +85,22 @@ layout: main
     {{ content }}
 </div>
 
+<div class="products">
+    <h1>Affiliated Products</h1>
+    <a href="https://drlewisplasticsurgery.brilliantconnections.com/">
+        <div class="product">
+            <div class="product-img" style="background-image:url({{ 'images/alastin.jpg' | relative_url }})"></div>
+            <h3>Skin Medica</h3>
+        </div>
+    </a>
+    <a href="www.alastin.com/drrobertlewisplasticsurgery">
+        <div class="product">
+            <div class="product-img" style="background-image:url({{ 'images/skinmedica.jpg' | relative_url }})"></div>
+            <h3>Alastin Skin Care</h3>
+        </div>
+    </a>
+</div>
+
 <div class="credentials">
     <div class="item" style="background-image:url(https://www.magicaesthetic.com/wp-content/uploads/2017/07/5.png)">
 
@@ -109,6 +125,30 @@ layout: main
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
 <script>
+
+    var mySwiper = new Swiper ('.testimonials', {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+        el: '.swiper-pagination',
+        },
+        autoplay: {
+            delay: 3000,
+        },
+        // Navigation arrows
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+        el: '.swiper-scrollbar',
+        },
+    });
+
     // Params
     let mainSliderSelector = '.main-slider',
         navSliderSelector = '.nav-slider',
