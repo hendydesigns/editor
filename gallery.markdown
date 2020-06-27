@@ -6,6 +6,7 @@ layout: gallery
 ---
 
 ## Face Lift ##
+
 ![facelift_A1.jpg](/uploads/facelift_A1.jpg)
 
 ![facelift_A2.jpg](/uploads/facelift_A4.jpg)
