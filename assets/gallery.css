@@ -174,7 +174,8 @@
     }
     .thumbs {
       left: 0;
-      top: 0;
+      top: -25px;
+      opacity: .5;
       width: 100vw !important;
       height: 100%;
     }
@@ -280,4 +281,8 @@
     .Gallery .Grid-cell {
       height: 300px;
     }
+  }
+
+  .button span {
+    background: #000 !important;
   }
