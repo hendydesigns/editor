@@ -53,11 +53,16 @@ layout: main
     .header {
         color: #000 !important;
     }
+
+
+    #button span {
+        background: #000 !important;
+    }
 </style>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
-    $(".Gallery h2").each(function(i) {
+    $(".Gallery h2").each(function (i) {
         $(this).addClass("anchor");
         var anchor = "anchor-" + i;
         $(this).addClass(anchor);
