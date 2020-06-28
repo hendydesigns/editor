@@ -57,5 +57,14 @@ layout: gallery
 
 ![aug6.jpg](/uploads/aug6.jpg)
 
+## Breast Reduction ##
+
+![red1.jpg](/uploads/red1.jpg)
+
+![red2.jpg](/uploads/red2.jpg)
+
+![red3.jpg](/uploads/red3.jpg)
+
+![red4.jpg](/uploads/red4.jpg)
 
 
